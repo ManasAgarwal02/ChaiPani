@@ -24,7 +24,7 @@ SECRET_KEY = 'iche-fj(bu=k#=25j7*=!)odfah5w4*oum2es5ow%6yw7ii2@f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1',]
+ALLOWED_HOSTS = ['127.0.0.1', 'chaipani.herokuapp.com']
 
 # Application definition
 
