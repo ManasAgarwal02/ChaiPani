@@ -1,0 +1,22 @@
+{% extends './base.html' %}
+
+
+{% block title %}
+    confirm order
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="jumbotron alert alert-success" style="margin-top: 150px">
+            <div>
+        <span class="material-icons mx-4" style="font-size: 50px; color: green; ">
+            check_circle_outline
+        </span>
+                <span style="font-size: 40px; color: green; margin-bottom: 50px;">Your order has been confirmed!!</span>
+            </div>
+        </div>
+        <div>
+            <h4><strong>Order ID: {{ id }}</strong></h4>
+        </div>
+    </div>
+{% endblock %}
